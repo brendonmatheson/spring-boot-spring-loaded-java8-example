@@ -1,0 +1,24 @@
+{
+  "name": "Java Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "java.jdt.ls.java.home": "/usr/local/sdkman/candidates/java/8.0.462-tem",
+        "java.configuration.runtimes": [
+          {
+            "name": "JavaSE-1.8",
+            "path": "/usr/local/sdkman/candidates/java/8.0.462-tem"
+          }
+        ]
+      },
+      "extensions": [
+        "GitHub.copilot",
+        "vscjava.migrate-java-to-azure"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}

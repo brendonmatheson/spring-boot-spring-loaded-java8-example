@@ -35,3 +35,14 @@ You can even enable auto-compilation if your IDE supports that, for totally seam
     * Showing how to use @AuthenticationPrincipal to get the details for the currently logged in user
 * [Thymeleaf](http://www.thymeleaf.org)
 * [Thymeleaf Custom Layout - Template layouts in Spring MVC application with no extensions](https://github.com/kolorobot/thymeleaf-custom-layout)
+
+# Switching SDK
+
+Inside the devcontainer you can switch SDK using the `sdk` command from `sdkman`:
+
+```bash
+sdk use java 21.0.5-tem      # Switch to Java 21
+sdk use java 8.0.462-tem     # Switch back to Java 8
+sdk default java 21.0.5-tem  # Set Java 21 as default
+sdk list java                # List all installed Java versions
+```
