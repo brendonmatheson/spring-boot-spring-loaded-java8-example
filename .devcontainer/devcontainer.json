@@ -1,5 +1,5 @@
 {
-  "name": "Java Dev Container",
+  "name": "Java App Modernization Dev Container",
   "build": {
     "dockerfile": "Dockerfile"
   },
